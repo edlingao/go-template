@@ -1,0 +1,3 @@
+<a href=\"
+\" class=\"text-primary underline\" hx-boost=\"true\">
+</a>

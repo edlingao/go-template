@@ -1,0 +1,3 @@
+<div class=\"flex h-[80dvh] bg-white m-12 overflow-hidden rounded\"><form class=\"flex flex-col w-1/2 gap-4 justify-center items-stretch p-4\" hx-post=\"
+\" hx-request=\"{&#34;credentials&#34;:&#34;include&#34;}\">
+</form><div class=\"w-1/2\"><img class=\"h-full object-cover\" src=\"/assets/imgs/bg.jpg\" alt=\"Signing Background\"></div></div>

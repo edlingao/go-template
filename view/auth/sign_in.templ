@@ -1,0 +1,21 @@
+package view_auth
+
+import "exercise-app/components"
+
+templ SignIn() {
+  @components.Root() {
+    @components.AuthForm("/auth/signin") {
+      <h1 class="text-center text-neutral text-5xl uppercase">Sign In</h1>
+      <p class="text-center text-primary">Welcome Back!</p>
+      @components.Input("Email", "email", "email")
+      @components.Input("Password", "password", "password")
+      <button class="btn btn-primary text-white" type="submit">Sign In</button>
+      <p class="text-center text-neutral">
+        Don't have an account? 
+        @components.Link("/auth/register") {
+          Register here
+        }
+      </p>
+    }
+  }
+}

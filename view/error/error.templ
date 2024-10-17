@@ -1,0 +1,10 @@
+package view_error
+
+import "exercise-app/components"
+
+templ Error(err error) {
+  @components.Root() {
+    <h1>Error: {err.Error()}</h1>
+  }
+}
+

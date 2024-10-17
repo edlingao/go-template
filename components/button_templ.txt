@@ -1,0 +1,2 @@
+<button hx-get=\"/count\" hx-swap=\"innerHTML\" class=\"btn btn-error rounded mb-10\">
+</button>

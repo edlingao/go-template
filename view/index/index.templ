@@ -1,0 +1,10 @@
+package view_index
+
+import "exercise-app/components"
+
+templ Index(name string, count string) {
+  @components.Root() {
+    <h1>Hola {name}</h1>
+    @components.Button(count)
+  }
+}

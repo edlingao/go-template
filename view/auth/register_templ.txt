@@ -1,0 +1,6 @@
+<h1 class=\"text-center text-neutral text-5xl uppercase\">Register</h1><p class=\"text-center text-primary\">Register a new account</p>
+ 
+ 
+ <button class=\"btn btn-primary text-white\" type=\"submit\">Register</button><p class=\"text-center text-neutral\">Already have an account? 
+Signin here
+</p>
